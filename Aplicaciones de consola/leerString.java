@@ -1,14 +1,14 @@
-import java.util.Scanner; //Se importa la librería Scanner
+import java.util.Scanner; //Se importa la librerÃ­a Scanner
 
 class lecturaString {
    public static Scanner leer = new Scanner(System.in);     //Se crea una variable de tipo Scanner
    public static void main(String[] args){
-      String palabra = leerString("Palabra: ");             //Se asigna a una variable un valor llamando a una función
+      String palabra = leerString("Palabra: ");             //Se asigna un valor a partir de una funciÃ³n a una variable
       System.out.println("Nombre: "+ palabra);              //El programa imprime el valor de la variable
    }
    
-   public static String leerString(String texto){           //Función para leer variables del tipo string
+   public static String leerString(String texto){           //FunciÃ³n para leer variables de tipo string
       System.out.print(texto);                              //Imprime un texto por pantalla
-      return leer.nextLine();                               //Devuelve la línea escrita
+      return leer.nextLine();                               //Devuelve la lÃ­nea escrita
    }
 }
